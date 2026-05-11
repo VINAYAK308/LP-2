@@ -1,0 +1,157 @@
+Viva Questions and Answers – SaaS Cloud Setup using VMware ESXi and HDFS
+1. What is Cloud Computing?
+
+Cloud computing is the delivery of computing services like servers, storage, databases, and software over the internet or network.
+
+2. What is SaaS?
+
+SaaS (Software as a Service) is a cloud model where software applications are provided to users through a network without local installation.
+
+3. What is VMware ESXi?
+
+VMware ESXi is a Type-1 hypervisor used to create and manage virtual machines directly on hardware.
+
+4. What is a Hypervisor?
+
+A hypervisor is software that creates and manages virtual machines.
+
+5. What are the types of Hypervisors?
+Type-1 Hypervisor (Bare Metal)
+Type-2 Hypervisor (Hosted)
+6. Which type of hypervisor is ESXi?
+
+ESXi is a Type-1 hypervisor.
+
+7. What is HDFS?
+
+Hadoop Distributed File System is a distributed file system used to store large files across multiple systems.
+
+8. What is the purpose of HDFS in this project?
+
+HDFS stores encrypted file blocks in distributed storage.
+
+9. What is a NameNode?
+
+NameNode manages metadata and tracks file locations in HDFS.
+
+10. What is a DataNode?
+
+DataNode stores actual file blocks in HDFS.
+
+11. Why are files divided into blocks?
+
+Files are divided into blocks for efficient distributed storage and fault tolerance.
+
+12. What is Encryption?
+
+Encryption converts readable data into unreadable format for security.
+
+13. Which encryption method is used in the program?
+
+Fernet symmetric encryption is used.
+
+14. What is Symmetric Encryption?
+
+In symmetric encryption, the same key is used for encryption and decryption.
+
+15. What is the advantage of cloud storage?
+Scalability
+Remote access
+Centralized management
+Data backup
+16. What is Virtualization?
+
+Virtualization is the creation of virtual versions of hardware, operating systems, or storage devices.
+
+17. What is a Virtual Machine?
+
+A virtual machine is a software-based computer running inside a physical computer.
+
+18. What is vCenter?
+
+VMware vCenter Server is used to centrally manage ESXi hosts and clusters.
+
+19. What is a Cluster in VMware?
+
+A cluster is a group of ESXi hosts managed together.
+
+20. What is DRS?
+
+DRS (Distributed Resource Scheduler) balances workloads among virtual machines.
+
+21. What is Failover?
+
+Failover transfers workloads to another host when one host fails.
+
+22. What is the purpose of DNS configuration in ESXi?
+
+DNS helps resolve hostnames into IP addresses.
+
+23. What is LAN?
+
+LAN (Local Area Network) is a network connecting systems within a limited area.
+
+24. What command is used to upload files to HDFS?
+hdfs dfs -put filename /path
+25. What command is used to download files from HDFS?
+hdfs dfs -get /path filename
+26. Why is Ubuntu used in this project?
+
+Ubuntu provides good support for Hadoop and cloud tools.
+
+27. What is the role of Python in this project?
+
+Python is used to automate file splitting, encryption, upload, download, and merging.
+
+28. What is block size in HDFS?
+
+Block size is the size of file chunks stored in HDFS. Default is usually 128 MB.
+
+29. What happens if one DataNode fails?
+
+HDFS retrieves data from replicated copies stored on other DataNodes.
+
+30. What is Replication in HDFS?
+
+Replication stores multiple copies of file blocks for fault tolerance.
+
+31. What is the advantage of using ESXi?
+Efficient resource utilization
+Multiple VM support
+Better performance
+Centralized management
+32. What are the minimum RAM requirements for ESXi?
+
+Minimum 4 GB RAM is required.
+
+33. What is the function of the NameNode format command?
+hdfs namenode -format
+
+It initializes the HDFS filesystem metadata.
+
+34. What is meant by private cloud?
+
+A private cloud is a cloud infrastructure used by a single organization over private networks.
+
+35. What are the cloud service models?
+SaaS
+PaaS
+IaaS
+36. Difference between SaaS and IaaS?
+SaaS provides software services.
+IaaS provides infrastructure resources like servers and storage.
+37. What is the purpose of block encryption?
+
+It protects data from unauthorized access.
+
+38. What is the use of VMware clusters?
+
+Clusters improve resource sharing, scalability, and availability.
+
+39. What is a Root Password in ESXi?
+
+It is the administrator password used for managing the ESXi host.
+
+40. What is the conclusion of this experiment?
+
+A private SaaS cloud was successfully configured using VMware ESXi and HDFS with secure encrypted file storage and retrieval.

@@ -1,0 +1,163 @@
+Viva Questions and Answers on Salesforce Cloud Mini Project
+1. What is Salesforce?
+
+Salesforce is a cloud-based CRM platform used for sales, customer service, marketing, and application development.
+
+2. What is CRM?
+
+CRM stands for Customer Relationship Management. It helps organizations manage customer interactions and business relationships.
+
+3. What is Salesforce Cloud?
+
+Salesforce Cloud refers to cloud services provided by Salesforce such as Sales Cloud, Service Cloud, and Community Cloud.
+
+4. What is Lightning Platform?
+
+Lightning Platform (Force.com) is a PaaS platform used to build custom applications on Salesforce.
+
+5. What is the difference between SaaS and PaaS?
+SaaS	PaaS
+Software delivered over internet	Platform used to develop applications
+Example: Sales Cloud	Example: Lightning Platform
+6. What is Sales Cloud?
+
+Sales Cloud is a CRM application used for sales automation, lead management, and customer support.
+
+7. What is Community Cloud?
+
+Community Cloud is used to create customer and partner portals for collaboration.
+
+8. What is AppExchange?
+
+AppExchange is Salesforce’s online marketplace for third-party applications and components.
+
+9. What is a Custom Application in Salesforce?
+
+A custom application is a collection of tabs, objects, and features created for a specific business purpose.
+
+10. What is a Console Application?
+
+A console application provides a tab-based interface for handling multiple records efficiently.
+
+11. What is an Object in Salesforce?
+
+An object is a database table used to store data.
+
+12. What are Standard Objects?
+
+Predefined Salesforce objects such as Account, Contact, Lead, and Opportunity are called standard objects.
+
+13. What are Custom Objects?
+
+Objects created by users according to business requirements are called custom objects.
+
+14. What is a Field in Salesforce?
+
+A field stores individual pieces of data in an object.
+
+15. What is Apex?
+
+Apex is a Java-like programming language used in Salesforce for backend logic and automation.
+
+16. What is Visualforce?
+
+Visualforce is a framework used to create custom user interfaces in Salesforce.
+
+17. What is Lightning Experience?
+
+Lightning Experience is the modern user interface of Salesforce.
+
+18. What is meant by Cloud Computing?
+
+Cloud computing means delivering computing services over the internet.
+
+19. What are the types of Cloud Computing?
+Public Cloud
+Private Cloud
+Hybrid Cloud
+20. What are the service models in Cloud Computing?
+SaaS
+PaaS
+IaaS
+21. Why is Salesforce called a SaaS platform?
+
+Because users access Salesforce software through the internet without installing it locally.
+
+22. What is Workflow Automation in Salesforce?
+
+It automates repetitive business tasks such as email alerts and task creation.
+
+23. What is a Profile in Salesforce?
+
+A profile controls user permissions and access.
+
+24. What is a Role in Salesforce?
+
+A role controls record-level access through hierarchy.
+
+25. What is the use of App Manager?
+
+App Manager is used to create and manage Salesforce applications.
+
+26. What is a Dashboard in Salesforce?
+
+A dashboard visually displays reports and business data.
+
+27. What is a Report in Salesforce?
+
+A report is a list or summary of records stored in Salesforce.
+
+28. What are Tabs in Salesforce?
+
+Tabs are user interface elements used to access objects and applications.
+
+29. What is Multi-Tenant Architecture?
+
+In multi-tenant architecture, multiple users share the same infrastructure securely.
+
+30. What are the advantages of Salesforce?
+Cloud-based
+Scalable
+Secure
+Easy customization
+Mobile accessibility
+Automation support
+31. What is meant by Real-Time Collaboration?
+
+Users can share updates, messages, and files instantly within Salesforce.
+
+32. What is Data Security in Salesforce?
+
+Salesforce provides authentication, authorization, and encryption for secure data access.
+
+33. What is the use of Setup Menu?
+
+Setup Menu is used for administration and configuration of Salesforce.
+
+34. What is a Sandbox in Salesforce?
+
+Sandbox is a testing environment used for development without affecting production data.
+
+35. What is the purpose of creating a custom app?
+
+To simplify business operations and manage related data in one place.
+
+36. Which programming language is used in Salesforce?
+
+Apex programming language is mainly used.
+
+37. What is the maximum length of an app name in Salesforce?
+
+40 characters including spaces.
+
+38. What is meant by Declarative Development?
+
+Development using configuration tools without coding is called declarative development.
+
+39. What is the use of Email Alerts in Salesforce?
+
+Email alerts automatically notify users about important activities.
+
+40. What is the conclusion of this practical?
+
+The practical helped understand Salesforce cloud administration and custom application development using Salesforce Cloud.

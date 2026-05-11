@@ -1,0 +1,198 @@
+Viva Questions and Answers on Apex Programming in Salesforce
+1. What is Apex?
+
+Apex is a strongly typed, object-oriented programming language developed by Salesforce for building applications and business logic on the Force.com platform.
+
+2. Why is Apex called a strongly typed language?
+
+Because every variable must be declared with a specific data type before use.
+
+3. Which programming language syntax is Apex similar to?
+
+Apex syntax is similar to Java.
+
+4. What is Salesforce?
+
+Salesforce is a cloud-based CRM platform used for customer relationship management and application development.
+
+5. What is Force.com?
+
+Force.com is the application development platform provided by Salesforce for creating cloud applications.
+
+6. What are the main features of Apex?
+Strongly typed
+Object-oriented
+Database integrated
+Easy testing support
+Multitenant support
+Automatic upgrades
+7. What is SOQL?
+
+SOQL (Salesforce Object Query Language) is used to retrieve records from Salesforce objects.
+
+Example:
+
+SELECT Id, Name FROM Account
+8. What is SOSL?
+
+SOSL (Salesforce Object Search Language) is used to search multiple objects and fields simultaneously.
+
+9. What is a DML statement in Apex?
+
+DML (Data Manipulation Language) statements are used to insert, update, delete, and upsert records.
+
+Example:
+
+insert acc;
+update acc;
+delete acc;
+10. What are sObjects?
+
+sObjects are Salesforce database objects like Account, Contact, Lead, etc.
+
+11. What is a trigger in Apex?
+
+A trigger is Apex code that executes automatically when database events occur such as insert, update, or delete.
+
+12. What is the difference between Trigger and Class?
+Trigger	Class
+Executes automatically	Called manually
+Used on database events	Used for business logic
+Cannot be invoked directly	Can be invoked
+13. What is Governor Limit?
+
+Governor Limits are runtime limits enforced by Salesforce to ensure efficient resource usage in a multitenant environment.
+
+14. Why are Governor Limits important?
+
+They prevent one user's code from consuming excessive shared resources.
+
+15. What is a multitenant environment?
+
+A multitenant environment means multiple users or organizations share the same resources and infrastructure.
+
+16. What is a Visualforce page?
+
+A Visualforce page is a user interface framework used to create custom pages in Salesforce.
+
+17. What is the use of Apex Classes?
+
+Apex classes contain business logic and methods used in Salesforce applications.
+
+18. What is unit testing in Apex?
+
+Unit testing verifies whether Apex code works correctly.
+
+19. What is the minimum test coverage required in Salesforce?
+
+At least 75% code coverage is required for deployment.
+
+20. What is the use of System.debug()?
+
+It is used to print debugging messages in logs.
+
+Example:
+
+System.debug('Hello');
+21. What are collections in Apex?
+
+Collections store multiple values together.
+Types:
+
+List
+Set
+Map
+22. What is a List in Apex?
+
+A List stores ordered elements and allows duplicates.
+
+Example:
+
+List<String> names = new List<String>();
+23. What is a Set in Apex?
+
+A Set stores unique values only.
+
+24. What is a Map in Apex?
+
+A Map stores data in key-value pairs.
+
+25. What is the difference between SOQL and SOSL?
+SOQL	SOSL
+Searches one object	Searches multiple objects
+Similar to SELECT	Similar to search
+Returns specific records	Returns broader search results
+26. What is the use of “if” condition in Apex?
+
+It controls the flow of execution based on conditions.
+
+27. What is a loop in Apex?
+
+Loops are used to execute a block of code repeatedly.
+
+Types:
+
+for loop
+while loop
+do-while loop
+28. What is an Apex transaction?
+
+An Apex transaction is a set of operations executed as a single unit.
+
+29. What happens when Apex code exceeds governor limits?
+
+The system throws a runtime exception and stops execution.
+
+30. What are the advantages of Apex?
+Easy integration with Salesforce database
+Java-like syntax
+Secure execution
+Cloud-based development
+Automatic upgrades
+Important Short Viva Questions
+Q. Can Apex directly interact with database objects?
+
+Yes, using SOQL and DML operations.
+
+Q. Is Apex compiled or interpreted?
+
+Apex is compiled into metadata and executed by the Apex runtime interpreter.
+
+Q. Which editions support Apex?
+
+Enterprise, Unlimited, Performance, and Developer editions.
+
+Q. Can Apex be used for web services?
+
+Yes, Apex supports REST and SOAP web services.
+
+Q. What is the use of inline SOQL?
+
+Inline SOQL allows querying directly inside Apex code.
+
+Common Interview/Viva Questions
+1. Why do we use Apex instead of configuration tools?
+
+Apex is used when complex business logic cannot be implemented using declarative tools like flows or validation rules.
+
+2. Explain the working structure of Apex.
+Developer writes Apex code.
+Salesforce compiles and stores it as metadata.
+When triggered by user action, runtime interpreter executes it.
+3. Explain DML operations.
+
+DML operations manipulate records in database:
+
+Insert
+Update
+Delete
+Upsert
+Merge
+4. What is code coverage?
+
+Code coverage measures how much Apex code is tested by unit tests.
+
+5. What are the development tools for Apex?
+Developer Console
+Visual Studio Code with Salesforce Extensions
+Salesforce CLI

@@ -1,0 +1,121 @@
+Viva Questions and Answers on AWS EC2 Instance Creation
+1. What is an EC2 instance?
+
+An EC2 instance is a virtual server in Amazon Web Services cloud used to run applications.
+
+2. What is the meaning of “on-demand EC2 instance”?
+
+An on-demand EC2 instance is a pay-as-you-go virtual machine where users pay only for the time the instance runs.
+
+3. What is a public subnet?
+
+A public subnet is a subnet connected to the internet through an Internet Gateway.
+
+4. Why does AWS assign a public IP address?
+
+AWS assigns a public IP so the EC2 instance can communicate over the internet.
+
+5. What is a dynamic public IP?
+
+A dynamic public IP changes whenever the instance is stopped and started again.
+
+6. What is Auto Assign Public IP?
+
+It is a feature that automatically assigns a public IP address to the EC2 instance during launch.
+
+7. Why was Auto Assign Public IP disabled in this experiment?
+
+It was disabled because a static Elastic IP (EIP) would be assigned later manually.
+
+8. What is an Elastic IP (EIP)?
+
+An Elastic IP is a static public IPv4 address provided by AWS that remains fixed.
+
+9. What is the advantage of using Elastic IP?
+
+It provides a permanent IP address, useful for hosting websites and remote access.
+
+10. Difference between Dynamic IP and Elastic IP?
+Dynamic IP	Elastic IP
+Changes after restart	Remains constant
+Automatically assigned	Manually allocated
+Temporary	Static
+11. What is a subnet?
+
+A subnet is a smaller network inside a VPC used to organize resources.
+
+12. What is VPC in AWS?
+
+VPC (Virtual Private Cloud) is a private virtual network in AWS where resources are launched securely.
+
+13. What is the use of an Internet Gateway?
+
+An Internet Gateway allows communication between the VPC and the internet.
+
+14. What happens if an instance is launched in a private subnet?
+
+The instance cannot directly access the internet.
+
+15. Why are public subnets used?
+
+Public subnets are used for resources that need internet access like web servers.
+
+16. What is the use of EC2 instances?
+
+EC2 instances are used for hosting applications, websites, databases, and cloud services.
+
+17. What is cloud computing?
+
+Cloud computing is the delivery of computing services such as servers, storage, and databases over the internet.
+
+18. Why is AWS popular in cloud computing?
+
+AWS provides scalable, reliable, secure, and cost-effective cloud services.
+
+19. What are the benefits of on-demand instances?
+No long-term commitment
+Pay only when used
+Easy scalability
+20. What is meant by scalability in cloud computing?
+
+Scalability means increasing or decreasing resources based on demand.
+
+21. What is the default storage attached to EC2?
+
+EBS (Elastic Block Store) volume is commonly attached as storage.
+
+22. What is AMI in AWS?
+
+AMI (Amazon Machine Image) is a template used to launch EC2 instances.
+
+23. What is a security group?
+
+A security group acts as a virtual firewall controlling inbound and outbound traffic.
+
+24. Why is SSH used in EC2?
+
+SSH is used for secure remote login into Linux EC2 instances.
+
+25. Which port is used for SSH?
+
+Port 22 is used for SSH connections.
+
+26. What is the full form of EC2?
+
+Elastic Compute Cloud.
+
+27. What is the billing model of on-demand instances?
+
+Users are charged based on usage time and resources consumed.
+
+28. Can an Elastic IP be moved between instances?
+
+Yes, Elastic IPs can be reassigned to another EC2 instance.
+
+29. What happens if no public IP is assigned?
+
+The instance cannot be accessed directly from the internet.
+
+30. Give the conclusion of this experiment.
+
+The experiment demonstrated how to create and configure an on-demand EC2 instance in AWS, understand public subnets, dynamic IPs, and Elastic IP allocation in cloud computing.
