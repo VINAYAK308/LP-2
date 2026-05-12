@@ -2,6 +2,7 @@
 
 Important links
 https://chatgpt.com/share/6a021b82-cca8-8324-ad62-92359ba64487
+https://chatgpt.com/share/6a029d33-5e14-8320-beec-9c4db97b76df
 
 
 https://chatgpt.com/share/6a0217a8-4444-8320-a930-93bfec569042
